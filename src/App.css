@@ -1,0 +1,19 @@
+.custom-pagination {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 5px;
+}
+
+.custom-pagination .splide__pagination__page {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.custom-pagination .splide__pagination__page.is-active {
+  background-color: #4CAF50;
+}
